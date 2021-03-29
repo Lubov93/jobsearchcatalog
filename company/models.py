@@ -15,7 +15,7 @@ class Company(models.Model):
     #                                on_delete=models.SET_NULL,
     #                                null=True)
 
-    logo = models.ImageField(null=True)
+
     name = models.CharField(max_length=512,
                             null=False,
                             blank=False)
